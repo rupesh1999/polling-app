@@ -2,6 +2,9 @@ body {
     margin: 0;
 }
 
+h2 {
+    font-family: 'Kaushan Script', cursive;
+}
 #death-note {
     opacity: 1;
     position: relative;
