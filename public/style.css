@@ -28,3 +28,7 @@ body {
     height: 300px;
     width: 60vw;
 }
+
+blockquote {
+    font-size: 30px;
+}
