@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Polling App</title>
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class = "deep-purple-text text-darken-3">Anime poll</h2>
+        <h4>Vote For Your Favourite Anime Of All Time</h4>
+        <div class="center-align">
+        <form id="vote-form">
+            <p>
+                <input type="radio" name="anime" id="death-note" value="Death Note">
+                <label for="death-note">Death Note</label>
+            </p>
+            <p>
+                <input type="radio" name="anime" id="code-geass" value="Code Geass">
+                <label for="cose-geass">Code Geass</label>
+            </p>
+            <p>
+                <input type="radio" name="anime" id="naruto" value="Naruto">
+                <label for="naruto">Naruto</label>
+            </p>
+            <p>
+                <input type="radio" name="anime" id="others" value="Others">
+                <label for="others">Others</label>
+            </p>
+            <button class="btn deep-purple darken-2 waves-effect waves-light" id="submit" type="submit" name="action">Submit
+                <i class="material-icons right"></i>
+            </button>
+        </form>
+    </div>
+        <br><br>
+
+        <div id="chartContainer"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+    <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

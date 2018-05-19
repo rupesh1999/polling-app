@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+#death-note {
+    opacity: 1;
+    position: relative;
+    pointer-events: fill;
+}
+
+#code-geass {
+    opacity: 1;
+    position: relative;
+    pointer-events: fill;
+}
+#naruto {
+    opacity: 1;
+    position: relative;
+    pointer-events: fill;
+}
+#others {
+    opacity: 1;
+    position: relative;
+    pointer-events: fill;
+}
+
+#chartContainer {
+    height: 300px;
+    width: 60vw;
+}
